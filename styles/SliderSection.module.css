@@ -1,0 +1,108 @@
+.sliderSection {
+  position: relative;
+  width: 100%;
+  background-color: inherit;
+  margin-top: 20px;
+  margin-bottom: 10%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.sliderSection > h4 {
+  margin-top: 40px;
+  margin-bottom: 14px;
+  font-family: 'Quicksand', sans-serif;
+  color: #ababab;
+  font-weight: bold;
+  font-size: large;
+  letter-spacing: 5px;
+}
+
+
+.swiper {
+  max-width: 80%;
+  height: 100%;
+  background-color: #000000;
+  border-radius: 20px;
+}
+
+.swiperSlide {
+  cursor: crosshair;
+}
+
+.swiper-button {
+  padding: 1em;
+  cursor: pointer;
+  color: #fff;
+  width: fit-content;
+  border-radius: 10em;
+  position: absolute;
+  margin-right: 6em;
+  right: 0%;
+}
+
+.swiper-button > img {
+  object-fit: contain;
+  height: 2em;
+}
+
+.caseStudy {
+  display: flex;
+  margin-bottom: 1em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .sliderSection {
+    position: relative;
+    width: 100%;
+    background-color: inherit;
+    margin-top: 20px;
+    margin-bottom: 10%;
+    height: 60vh;
+    box-sizing: border-box;
+  }
+
+  .swiper {
+    max-width: 98%;
+    height: 100%;
+    background-color: #000000;
+    border-radius: 20px;
+  }
+
+  .swiper-button {
+    padding: 1em;
+    cursor: pointer;
+    color: #fff;
+    width: fit-content;
+    border-radius: 10em;
+    position: relative;
+    margin-right: -3em;
+    right: -8%;
+    top: 3px;
+  }
+
+  .swiper-button > img {
+    object-fit: contain;
+    height: 1em;
+  }
+
+  .caseStudy > h1{
+    font-size: 28px;
+  
+  }
+
+}
+
+
+@media (max-width: 456px) {
+  .slider-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+  }
+}

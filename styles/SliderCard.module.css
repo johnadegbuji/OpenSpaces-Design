@@ -1,0 +1,46 @@
+.sliderCard {
+  width: 75%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: #121314;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  align-items: center;
+  margin-top: -3%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.sliderCardProjectImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sliderCard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #121314;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    align-items: center;
+    margin-top: -3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  
+  .sliderCardProjectImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+}
