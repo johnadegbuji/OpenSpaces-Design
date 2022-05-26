@@ -37,9 +37,13 @@ export default function Home() {
     <App>
       <Default>
       <Head>
-        <title>OPENSPACES</title>
+        <title>OPENSPACES - Full Service NFT Agency</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0;" />
+        <meta property="og:description" name="description" content="OPENSPACES is a full service NFT agency based in Los Angeles, CA. We help new projects make their debut to the blockchain, and help manage existing projects along with their communities."></meta>
         <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+        <meta property="og:title" content="OPENSPACES" />
+        <meta property="og:url" content="https://www.openspaces.design" />
+        <meta property="og:image" content="/socialsharelogo.png" />
       </Head>
       <HeroSection>
         <Navbar />
