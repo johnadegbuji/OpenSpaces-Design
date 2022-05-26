@@ -12,6 +12,7 @@ import CaseStudySection from '../components/CaseStudySection'
 import ContactSection from '../components/Contact'
 import Footer from '../components/Footer'
 import { useMediaQuery } from 'react-responsive'
+import Head from 'next/head'
 
 const Desktop = ({ children }) => {
   const isDesktop = useMediaQuery({ minWidth: 992 })
@@ -35,12 +36,11 @@ export default function Home() {
   return (
     <App>
       <Default>
-      <head>
+      <Head>
         <title>OPENSPACES</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0;" />
         <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-      </head>
+      </Head>
       <HeroSection>
         <Navbar />
         <HeroContent />
@@ -56,6 +56,11 @@ export default function Home() {
       </Default>
       
       <Mobile>
+      <Head>
+        <title>OPENSPACES</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0;" />
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+      </Head>
       <HeroSection>
         <Navbar />
         <HeroContent />
