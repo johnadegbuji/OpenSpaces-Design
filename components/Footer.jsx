@@ -99,9 +99,8 @@ const Footer = () => {
                 <Copyright>© OPENSPACES. All Rights Reserved.</Copyright>
                 <Copyright>info@openspaces.design</Copyright>
                 <SocialContainer>
-                    <SocialLogo src="/IG.png"></SocialLogo>
-                    <SocialLogo src="/linkedin.png"></SocialLogo>
-                    <SocialLogo src="/youtube.png"></SocialLogo>
+                <a href="https://instagram.com/openspaces.io"><SocialLogo src="/IG.png"></SocialLogo></a>
+                <a href="https://www.linkedin.com/company/openspaces-design"><SocialLogo src="/linkedin.png"></SocialLogo></a>
                 </SocialContainer>
             </FooterContainer>
         </Mobile>
