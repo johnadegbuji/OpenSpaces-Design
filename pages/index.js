@@ -50,15 +50,17 @@ export default function Home() {
         <meta property="og:title" content="OPENSPACES" />
         <meta property="og:url" content="https://www.openspaces.design" />
         <meta property="og:image" content="/socialsharelogo.png" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-230123682-1">
-        </script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-230123682-1');
-        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=230123682-1"/>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '230123682-1', { page_path: window.location.pathname });
+            `,
+          }}
+        />
       </Head>
       <HeroSection>
         <Navbar />
