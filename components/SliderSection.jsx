@@ -47,10 +47,10 @@ function SliderSection() {
     <>
       <Default>
         <div className={styles.caseStudy}>
-          <h1>Recent Work</h1>
-          <div className={styles['swiper-button']} ref={nextRef}>
+          <h1>Recent Clients</h1>
+          {/* <div className={styles['swiper-button']} ref={nextRef}>
             <img src={'./nav-arrow.png'} />
-          </div>
+          </div> */}
         </div>
         <section className={styles.sliderSection}>
           <Swiper
@@ -64,7 +64,7 @@ function SliderSection() {
             }}
             onSwiper={setSwiper}
             spaceBetween={80}
-            slidesPerView={2}
+            slidesPerView={1}
             
           >
             {
@@ -76,7 +76,7 @@ function SliderSection() {
                   <SwiperSlide className={styles.swiperSlide} key={index}>
                     <h1 
                     style={{ color: projectTitleColor, width:"70%", marginLeft: "auto", marginRight:"auto", marginTop:"10%", textAlign:"center"}}
-                    >{project.name}
+                    >
                     </h1>
                     <p
                       style={{
@@ -89,32 +89,8 @@ function SliderSection() {
                         fontWeight: '600',
                       }}
                     >
-                      {project.about}
                     </p>
                     <SliderCard projectImage={project.image} />
-
-                    <div style={{marginTop: "45px", textAlign:"center"}}>
-                    <div style={{borderRadius:"15px", width: "20%", height:"30px", backgroundColor:"grey", padding:"2px", display:"inline-block", marginLeft: "2%", marginRight:"2%", position: "relative", top: "-25px"}}>
-                     <p style={{color: "white", fontSize:"8px", textAlign: "center"}}>
-                       {project.tags1}
-                     </p>
-                     </div>
-                     <div style={{borderRadius:"15px", width: "20%", height:"30px", backgroundColor:"grey", padding:"2px", display:"inline-block", marginLeft: "2%", marginRight:"2%", position: "relative", top: "-25px"}}>
-                      <p style={{color: "white", fontSize:"8px", textAlign: "center"}}>
-                        {project.tags2}
-                      </p>
-                    </div>
-                    <div style={{borderRadius:"15px", width: "20%", height:"30px", backgroundColor:"grey", padding:"2px", display:"inline-block", marginLeft: "2%", marginRight:"2%", position: "relative", top: "-25px"}}>
-                      <p style={{color: "white", fontSize:"8px", textAlign: "center"}}>
-                        {project.tags3}
-                      </p>
-                    </div>
-                    <div style={{borderRadius:"15px", width: "20%", height:"30px", backgroundColor:"grey", padding:"2px", display:"inline-block", marginLeft: "2%", marginRight:"2%", position: "relative", top: "-25px"}}>
-                      <p style={{color: "white", fontSize:"8px", textAlign: "center"}}>
-                        {project.tags4}
-                      </p>
-                    </div>
-                    </div>
                   </SwiperSlide>
                   
                 )
@@ -170,30 +146,7 @@ function SliderSection() {
                       {project.about}
                     </p>
                     
-                    <SliderCard projectImage={project.image} />
-                    <div style={{marginTop: "45px", textAlign:"center"}}>
-                    <div style={{borderRadius:"15px", width: "20%", height:"30px", backgroundColor:"grey", padding:"2px", display:"inline-block", marginLeft: "2%", marginRight:"2%", position: "relative", top: "-25px"}}>
-                     <p style={{color: "white", fontSize:"8px", textAlign: "center"}}>
-                       {project.tags1}
-                     </p>
-                     </div>
-                     <div style={{borderRadius:"15px", width: "20%", height:"30px", backgroundColor:"grey", padding:"2px", display:"inline-block", marginLeft: "2%", marginRight:"2%", position: "relative", top: "-25px"}}>
-                      <p style={{color: "white", fontSize:"8px", textAlign: "center"}}>
-                        {project.tags2}
-                      </p>
-                    </div>
-                    <div style={{borderRadius:"15px", width: "20%", height:"30px", backgroundColor:"grey", padding:"2px", display:"inline-block", marginLeft: "2%", marginRight:"2%", position: "relative", top: "-25px"}}>
-                      <p style={{color: "white", fontSize:"8px", textAlign: "center"}}>
-                        {project.tags3}
-                      </p>
-                    </div>
-                    <div style={{borderRadius:"15px", width: "20%", height:"30px", backgroundColor:"grey", padding:"2px", display:"inline-block", marginLeft: "2%", marginRight:"2%", position: "relative", top: "-25px"}}>
-                      <p style={{color: "white", fontSize:"8px", textAlign: "center"}}>
-                        {project.tags4}
-                      </p>
-                    </div>
-                    </div>
-                    
+                    <SliderCard projectImage={project.image} />                    
                   </SwiperSlide>
                 )
               })}

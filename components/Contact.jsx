@@ -11,7 +11,7 @@ const SectionWrapper = styled.div`
   position: relative;
   max-width: 1440px;
   margin: auto;
-  padding-top: 20em;
+  padding-top: 0em;
   padding-bottom: 35em;
   margin-bottom: 20%;
   overflow: visible;
@@ -20,7 +20,7 @@ const SectionWrapper = styled.div`
   img{
     position: absolute;
     width: 60%;
-    top: 55%;
+    top: 0%;
     left: 4%;
     right: auto;
     // transform: rotate(30deg);
