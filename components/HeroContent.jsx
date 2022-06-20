@@ -255,7 +255,7 @@ const HeroContentComponent = () => {
       <Hero>
         <LeftSideHero>
           <h1>
-            Helping Creators <br /> Innovate In Web3 <br />
+            Helping Creators <br /> Innovate In Web3. <br />
             <HeroColoredText ><h1>NFTs <span>+</span> Metaverse</h1></HeroColoredText>
           </h1>
           <p className={styles.heroSubText}>
