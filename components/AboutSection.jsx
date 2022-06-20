@@ -147,7 +147,7 @@ const AboutSection = () => {
             - NFT Minting Sites <br></br>
             - Token-Gated Sites <br></br>
             - UX/UI Design <br></br>
-            - And standard Web2 Sites
+            - Standard Web2 Sites + more
             <br></br>
 
           </p>
@@ -209,7 +209,7 @@ const AboutSection = () => {
             OPENSPACES is a full service boutique NFT development agency, based in Los Angeles. We focus on helping creatives create custom blockchain powered solutions. 
             <br></br><br></br>We help our clients with:<br></br>
             Custom Smart Contracts <br></br>
-            NFT Minting Sites, Token-Gated Sites, UX/UI Design, and standard Web2 Sites.
+            NFT Minting Sites, Token-Gated Sites, UX/UI Design, standard Web2 Sites and more.
             <br></br>
 
             </p>
