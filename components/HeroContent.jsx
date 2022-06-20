@@ -259,7 +259,7 @@ const HeroContentComponent = () => {
             <HeroColoredText ><h1>NFTs <span>+</span> Metaverse</h1></HeroColoredText>
           </h1>
           <p className={styles.heroSubText}>
-           A custom blockchain services company.
+           A NFT development services company.
             <br /> PFPs, Art, Fashion, Music, Gaming, and Metaverse NFTs{' '}
           </p>
           <a href="#contact">
