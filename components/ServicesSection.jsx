@@ -37,9 +37,9 @@ flex-direction: row;
 // background-repeat: no-repeat;
 
 @media only screen and (max-width: 768px) {
-    height: 100vh;
+    height: 40vh;
     flex-direction: column;
-    padding-top: 18em;
+    padding-top: 0em;
 
 }
 
@@ -130,7 +130,7 @@ const ServicesSection = () => {
         <SectionWrapper>
             <LeftSide>
                 <ServicesSubText>
-                 <h1>All Services</h1>
+                 <h1>What We Can Do</h1>
                  <p>OPENSPACES provides a number of services for both new and experienced web3 related projects. All services are listed to the right:</p>   
                 </ServicesSubText>
             </LeftSide>
@@ -145,7 +145,7 @@ const ServicesSection = () => {
         <SectionWrapper>
             <LeftSide>
                 <ServicesSubText>
-                 <h1>All Services</h1>
+                 <h1>What We Can Do</h1>
                 </ServicesSubText>
             </LeftSide>
             <RightSide>

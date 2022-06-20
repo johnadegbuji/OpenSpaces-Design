@@ -33,7 +33,7 @@ const SectionWrapper = styled.div`
 
   @media only screen and (max-width: 768px) {
     height: 100vh;
-    padding-top: 15em;
+    padding-top: 4em;
     margin-bottom: 20em;
     display: block;
 

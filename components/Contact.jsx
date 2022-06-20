@@ -13,7 +13,7 @@ const SectionWrapper = styled.div`
   margin: auto;
   padding-top: 0em;
   padding-bottom: 35em;
-  margin-bottom: 20%;
+  margin-bottom: 0%;
   overflow: visible;
   margin-top: 10em;
 
@@ -26,6 +26,10 @@ const SectionWrapper = styled.div`
     // transform: rotate(30deg);
     opacity: .2;
     z-index: 0;
+}
+@media only screen and (max-width: 768px) {
+    height: 55vh;
+
 }
 `
 

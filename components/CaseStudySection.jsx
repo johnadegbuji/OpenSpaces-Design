@@ -13,7 +13,7 @@ const SectionWrapper = styled.div`
   overflow: visible;
 
   @media only screen and (max-width: 768px) {
-  padding-top: 40em;
+  padding-top: 30em;
   height: 100vh;
   }
 `

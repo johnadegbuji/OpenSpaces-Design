@@ -100,7 +100,7 @@ function SliderSection() {
       </Default>
       <Mobile>
         <div className={styles.caseStudy}>
-          <h1>Recent Work</h1>
+          <h1>Recent Clients</h1>
           <div className={styles['swiper-button']} ref={nextRef}>
             <img src={'./nav-arrow.png'} />
           </div>

@@ -28,13 +28,13 @@ const Hero = styled.div`
 const LeftSideHero = styled.div`
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 80%;
   justify-content: center;
   padding-left: 4em;
 
   h1 {
     margin: 0;
-    font-size: 3.5em;
+    font-size: 4.5em;
     overflow: hidden;
     font-weight: 800;
     /* border-right: .15em solid white; */
@@ -43,7 +43,7 @@ const LeftSideHero = styled.div`
   }
 
    p{
-     color: #8C8C8C;
+     color: #ffffff;
    }
 
   p span {
@@ -53,7 +53,7 @@ const LeftSideHero = styled.div`
 
   @media only screen and (max-width: 1172px) {
     h1 {
-      font-size: 2em;
+      font-size: 3.3em;
     }
   }
 
@@ -65,10 +65,11 @@ const LeftSideHero = styled.div`
     align-items: center;
     width: 90%;
     padding: 0;
-    margin-top: 15%;
+    margin-top: 5%;
     
     h1{
       margin-top: 10%;
+      font-size: 2.3em;
     }
 
     br:first-child{
@@ -76,7 +77,7 @@ const LeftSideHero = styled.div`
     }
 
     p{
-      width: 75%;
+      width: 90%;
       color: white;
       margin-top: 8%;
     }
@@ -254,12 +255,12 @@ const HeroContentComponent = () => {
       <Hero>
         <LeftSideHero>
           <h1>
-            A Full Service Provider <br /> For All That Is <br />
-            <HeroColoredText ><h1>NFTs <span>+</span> Web3</h1></HeroColoredText>
+            Helping Creators <br /> Innovate In Web3 <br />
+            <HeroColoredText ><h1>NFTs <span>+</span> Metaverse</h1></HeroColoredText>
           </h1>
           <p className={styles.heroSubText}>
-            A Los Angeles based company.
-            <br /> Minting Sites, <span>Smart Contracts</span> + More{' '}
+           A custom blockchain services company.
+            <br /> PFPs, Art, Fashion, Music, Gaming, and Metaverse NFTs{' '}
           </p>
           <a href="#contact">
           <GetInTouchBtn>

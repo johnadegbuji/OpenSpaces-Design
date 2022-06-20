@@ -74,7 +74,10 @@ const AboutText = styled.div`
   p{
     color:#ffffffd9;
     line-height: 2em;
-    width: 75%;
+    width: 85%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
   }
 
   @media only screen and (max-width: 768px) {
@@ -85,8 +88,11 @@ const AboutText = styled.div`
 
     p{
       color:#ffffffd9;
-      line-height: 2em;
-      width: 75%;
+      line-height: 1.35em;
+      width: 65%;
+      font-family: 'Rubik', sans-serif;
+      font-weight: 400;
+      font-size: .9em;
     }
   }
 `
@@ -135,8 +141,13 @@ const AboutSection = () => {
           <AboutText>
           <h1>How We Help You</h1>
           <p>
-            OPENSPACES is a full service NFT development agency, based in Los Angeles. We help new NFT project owners get started, 
-            and help maintain existing projects currently on the blockchain in the following general areas: 
+            OPENSPACES is a full service boutique NFT development agency, based in Los Angeles. We focus on helping creatives create custom blockchain powered solutions. 
+            <br></br><br></br>We help our clients with:<br></br>
+            - Custom Smart Contracts <br></br>
+            - NFT Minting Sites <br></br>
+            - Token-Gated Sites <br></br>
+            - UX/UI Design <br></br>
+            - And standard Web2 Sites
             <br></br>
 
           </p>
@@ -194,8 +205,13 @@ const AboutSection = () => {
             <AboutText>
             <h1 className={styles.aboutTextMobileH1}>How We Help You</h1>
             <p className={styles.aboutTextMobileP}>
-              OPENSPACES is a full service NFT development agency, based in Los Angeles. We help new NFT project owners get started, 
-              and help maintain existing projects currently on the blockchain in the following areas:
+            
+            OPENSPACES is a full service boutique NFT development agency, based in Los Angeles. We focus on helping creatives create custom blockchain powered solutions. 
+            <br></br><br></br>We help our clients with:<br></br>
+            Custom Smart Contracts <br></br>
+            NFT Minting Sites, Token-Gated Sites, UX/UI Design, and standard Web2 Sites.
+            <br></br>
+
             </p>
             </AboutText>
           </AboutTextContainer>
