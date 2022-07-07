@@ -53,7 +53,7 @@ const AboutContentWrapper = styled.div`
   @media only screen and (max-width: 768px) {
     
     display: flex;
-    margin-top: -5%;
+    margin-top: 10%;
     width: 100%;
     padding: 0;
     align-content: center;
@@ -144,10 +144,10 @@ const AboutSection = () => {
             OPENSPACES is a full service boutique NFT development agency, based in Los Angeles. We focus on helping creatives create custom blockchain powered solutions. 
             <br></br><br></br>We help our clients with:<br></br>
             - Custom Smart Contracts <br></br>
-            - NFT Minting Sites <br></br>
-            - Token-Gated Sites <br></br>
+            - Web3 websites <br></br>
+            - Augmented Reality <br></br>
             - UX/UI Design <br></br>
-            - Standard Web2 Sites + more
+            - Traditional websites + more
             <br></br>
 
           </p>
@@ -174,10 +174,10 @@ const AboutSection = () => {
           cardInfo='Let us handle the layout and design of your next project. Web3 needs a refined touch 👌 '
           />
           <AboutCard 
-          cardImage='./metaverse4.png'
-          cardTitle='SEO'
+          cardImage='./AR.png'
+          cardTitle='Augmented Reality'
           barColor='#edafc3'
-          cardInfo='Organic traffic is vital for any protocol looking to garner users. We specialize in SEO for Web3 companies. '
+          cardInfo='Augmented Reality can be used to further enhance how we experience the world by bringing the digital into the physical'
           />
       </AboutContentWrapper>
     </SectionWrapper>
@@ -209,7 +209,7 @@ const AboutSection = () => {
             OPENSPACES is a full service boutique NFT development agency, based in Los Angeles. We focus on helping creatives create custom blockchain powered solutions. 
             <br></br><br></br>We help our clients with:<br></br>
             Custom Smart Contracts <br></br>
-            NFT Minting Sites, Token-Gated Sites, UX/UI Design, standard Web2 Sites and more.
+            Web3 websites, Augmented Reality, UX/UI Design, traditional websites and more.
             <br></br>
 
             </p>
@@ -233,8 +233,8 @@ const AboutSection = () => {
             barColor='#34FFF6'
             />
             <AboutCard 
-            cardImage='./metaverse4.png'
-            cardTitle='SEO'
+            cardImage='./AR.png'
+            cardTitle='Augmented Reality'
             barColor='#edafc3'
             />
         </AboutContentWrapper>
